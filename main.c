@@ -35,7 +35,7 @@ int main() {
     // Es muy importante liberar la memoria dinámica cuando ya no se necesita para evitar fugas de memoria.
     free(arr);
     printf("Memoria liberada.\n");
-
+	printf("Programa finalizado y memoria liberada.\n");
     return 0; // Terminación exitosa del programa
 }
 
